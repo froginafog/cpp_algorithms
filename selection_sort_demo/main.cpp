@@ -5,23 +5,23 @@ void swap(int * n1, int * n2);
 
 int main()
 {
-	int a[] = {5, 3, 6, 1, 4, 2};
-	int i;
-	int j;
-	int num_items = sizeof(a)/sizeof(a[0]);
-	int j_min;
+    	int a[] = {5, 3, 6, 1, 4, 2};
+        int i;
+    	int j;
+    	int num_items = sizeof(a)/sizeof(a[0]);
+    	int j_min;
 
-    printf("a = ");
-    for(int k = 0; k < num_items; k++)
-    {
-        printf("   %d   ", a[k]);
-    }
-    printf("\n------------------------------------------------\n");
+    	printf("a = ");
+    	for(int k = 0; k < num_items; k++)
+    	{
+        	printf("   %d   ", a[k]);
+    	}
+    	printf("\n------------------------------------------------\n");
 
-    printf("notation:\n");
-    printf("i: (), j: [], j_min: {}");
+    	printf("notation:\n");
+   	printf("i: (), j: [], j_min: {}");
 
-    printf("\n------------------------------------------------\n");
+        printf("\n------------------------------------------------\n");
 
 	for(i = 0; i < num_items - 1; i++)
 	{
