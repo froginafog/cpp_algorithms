@@ -37,7 +37,7 @@ int main()
                 }
                 else if(k == i + 1 && i < num_items - 1)
                 {
-                        printf(" (%d)    ", a[k]);
+                    printf(" (%d)    ", a[k]);
                 }
                 else
                 {
