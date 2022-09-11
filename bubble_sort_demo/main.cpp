@@ -5,9 +5,9 @@ void swap(int * n1, int * n2);
 
 int main()
 {
-	int a[] = {5, 3, 6, 1, 4, 2};
-	int i;
-	int num_items = sizeof(a)/sizeof(a[0]);
+   int a[] = {5, 3, 6, 1, 4, 2};
+   int i;
+   int num_items = sizeof(a)/sizeof(a[0]);
 
     printf("a = ");
     for(int k = 0; k < num_items; k++)
@@ -60,7 +60,7 @@ int main()
         }
     }
 
-	printf("a = ");
+    printf("a = ");
     for(int k = 0; k < num_items; k++)
     {
         printf("  %d     ", a[k]);
